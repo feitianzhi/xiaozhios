@@ -62,7 +62,7 @@ QQ交流群：869598376
   
 2. 下载升级工具：http://www.feitianzhi.com/boke/index.php/ziyuanxiazai.html    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;升级工具是“小雉系统工具”包中的一个小工具，使用方法可以参考:</br>http://www.feitianzhi.com/boke/index.php/archives/14/        
-![小雉系统升级](http://mym9.com:16080/__pic/0013.png)
+![小雉系统升级](__pic/0013.png)
 
 3. 下载升级包源码    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;升级包源码为cpio.gz压缩包，解压方法：gzid -cd xiaozhios-20221212.gz |cpio -idvm    
@@ -77,7 +77,7 @@ QQ交流群：869598376
   gzid -cd xiaozhios-20221212.gz |cpio -idvm
   cd xiaozhios    
   ./clean;./run    
-  ![制作升级包的方法](http://mym9.com:16080/__pic/0123.png)
+  ![制作升级包的方法](__pic/0123.png)
 
 
 #### **小雉系统升级包源码定制**
@@ -86,7 +86,7 @@ QQ交流群：869598376
 1. xiaozhios/clean：清理制作升级包时产生的临时文件及升级包；    
 2. xiaozhios/run：制作升级包的脚本（此脚本要求输入授权码，开源用户输入free）； 
 3. xiaozhios/updateFilePackage：打包工具，在run脚本中调用，此工具可以设置密码（默认为12345）,生成的升级包会显示系统的sysKey，升级包在升级时会校验sysKey,不匹配则不能升级，即各用户可以使用不同的密码使自己做出的系统只能应用到自己的系统中；
-![sysKey](http://mym9.com:16080/__pic/0124.png)
+![sysKey](__pic/0124.png)
 4. xiaozhios/platform/x86_64：储存x86_64系统的目录（platform下可以储存多个系统，即可以把多个系统做在一个升级包中）；
 5. xiaozhios/platform/x86_64/mask.txt：系统包掩码的定义，升级包按如下规则应用掩码
 > 假设系统掩码为m,包掩码为b:    
@@ -106,6 +106,6 @@ QQ交流群：869598376
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8.1:表示基于8.1系统制作   
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.0:表示程序的主版本号为1.0 
 10. 软件包内部结构，该方案要求软件包内的文件名及目录名不能以"__"打头，内部建议按原版本系统组织（即直接拷贝原系统中文件按原系统目录结构储存）   
->  ![小雉系统软件包内部结构](http://mym9.com:16080/__pic/0125.png)    
+>  ![小雉系统软件包内部结构](__pic/0125.png)    
 sysKey软件包在/tmp/sysinfo/sysKey文件存放的数据为制作升级包时生成的sysKey数据："c345b45a4ec0a241134c5cefa0dd4aef"
 ftp软件包是拷贝原版系统的ftp文件做的一个软件包
