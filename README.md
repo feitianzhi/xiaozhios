@@ -70,7 +70,8 @@ QQ交流群：[869598376](http://www.feitianzhi.com/ "小雉系统")
      初始化版本；    
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;制作升级包的方法（制作好后使用升级工具升级即可，升级包中的定制见下节）:   
->     mkdir -p /opt/os
+>    
+    mkdir -p /opt/os
     mv xiaozhios-20221212.gz /opt/os
     cd /opt/os
     gzid -cd xiaozhios-20221212.gz |cpio -idvm
