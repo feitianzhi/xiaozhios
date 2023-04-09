@@ -56,16 +56,16 @@ QQ交流群：[869598376](http://www.feitianzhi.com/ "小雉系统")
 ------
 
 1. 下载开源系统镜像（xiaozhios-vmware.zip）：http://www.mym9.com:16080/files/xiaozhios-vmware.zip    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;开源镜像是使用其中一个版本的升级包制作的vmware镜像（用户名：root，密码：12345），在此版本上应用升级包即可把系统升级或降级为升级包中的系统； 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;开源镜像启动后需要配置ip,ip配置方法(工具最新版本：http://www.mym9.com:16080/files/tools.zip)：http://www.feitianzhi.com/boke/index.php/archives/15/ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;开源镜像是使用其中一个版本的升级包制作的vmware镜像（用户名：root，密码：12345），在此版本上应用升级包即可把系统升级或降级为升级包中的系统；<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;开源镜像启动后需要配置ip,ip配置方法(工具最新版本：http://www.mym9.com:16080/files/tools.zip)：http://www.feitianzhi.com/boke/index.php/archives/15/  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;从镜像中制作系统安装包的方法：</br>http://www.feitianzhi.com/boke/index.php/archives/50/   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;使用镜像安装到云服务器（也适用与物理机）的方法：</br>http://www.feitianzhi.com/boke/index.php/archives/11/  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;使用镜像安装到云服务器（也适用于物理机）的方法：</br>http://www.feitianzhi.com/boke/index.php/archives/11/  
 
 2. 下载升级包源码    
 >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;升级包源码为cpio.gz压缩包，解压方法：gzid -cd xiaozhios-20221212.gz |cpio -idvm    
 >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;升级包源码源码，最新版本(http://www.mym9.com:16080/files/xiaozhios-openSource.gz):   
-> 历史版本:2022-12-12 https://download.csdn.net/download/zhangrui_fslib_org/87269355   
->     初始化版本；    
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;历史版本:2022-12-12 https://download.csdn.net/download/zhangrui_fslib_org/87269355   
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;初始化版本；    
 >
 >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;制作升级包的方法（制作好后使用升级工具升级即可，升级包中的定制见下节）:   
 >    
@@ -77,7 +77,7 @@ QQ交流群：[869598376](http://www.feitianzhi.com/ "小雉系统")
     gzid -cd xiaozhios-openSource.gz |cpio -idvm
     cd xiaozhios
     ./clean;./run
-  生成升级包（如xiaozhi-4.94.1122.upt.jpg)后，把升级包和升级工具（xiaozhi-tools.zip）拷贝到windows下，使用update-gui.bat工具升级
+  生成升级包（如xiaozhi-4.94.1122.upt.jpg)后，把升级包拷贝到windows下，使用下级的工具升级
   ![制作升级包的方法](__pic/0123.png)
   
 3. 下载升级工具(工具最新版本：http://www.mym9.com:16080/files/tools.zip)：http://www.feitianzhi.com/boke/index.php/ziyuanxiazai.html    
