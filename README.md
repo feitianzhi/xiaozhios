@@ -79,6 +79,7 @@ QQ交流群：[869598376](http://www.feitianzhi.com/ "小雉系统")
     gzid -cd xiaozhios-openSource.gz |cpio -idvm
     cd xiaozhios
     ./clean;./run
+  生成升级包（如xiaozhi-4.94.1122.upt.jpg)，把升级包和升级工具（xiaozhi-tools.zip）拷贝到windows下，使用update-gui.bat工具升级
   ![制作升级包的方法](__pic/0123.png)
 
 
