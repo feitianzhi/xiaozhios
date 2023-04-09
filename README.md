@@ -73,7 +73,6 @@ QQ交流群：[869598376](http://www.feitianzhi.com/ "小雉系统")
     cd /opt/os
     //mv xiaozhios-20221212.gz /opt/os/xiaozhios-openSource.gz
     wget -o xiaozhios-openSource.gz http://www.mym9.com:16080/files/xiaozhios-openSource.gz
-    wget -o xiaozhi-tools.zip http://www.mym9.com:16080/files/tools.zip
     gzid -cd xiaozhios-openSource.gz |cpio -idvm
     cd xiaozhios
     ./clean;./run
