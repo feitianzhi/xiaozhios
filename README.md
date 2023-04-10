@@ -120,10 +120,8 @@ ftp软件包是拷贝原版系统的ftp文件做的一个软件包
 #### **小雉系统版权**
 ------
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"小雉系统"是基于开源linux发行版本定制,未修改linux发行版本源码,能否自由使用遵循对应发行版本的规则;
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"小雉系统"添加的执行程序（升级工具，打包工具，引导程序）版权归作者所有，个人可以免费使用；
-
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"小雉系统"是基于开源linux发行版本定制,未修改linux发行版本源码,能否自由使用遵循对应发行版本的规则;  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"小雉系统"添加的执行程序（升级工具，打包工具，引导程序）版权归作者所有，个人可以免费使用；  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"小雉系统"提供的收费版本为支持服务,其区别如下;
 
 
@@ -173,4 +171,368 @@ ftp软件包是拷贝原版系统的ftp文件做的一个软件包
 </tr>
 </tbody>
 </table>
+
+#### **小雉系统集成应用概览**
+------
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本集成应用是基于”小雉系统“集成多种应用做成的一套服务于视频应用的视频系统，总大小约230M，相关网址：http://www.feitianzhi.com/boke/index.php/ziyuanxiazai.html  
+<table>
+<thead>
+<tr>
+<th style="text-align:center;">应用类别</th>
+<th style="text-align:center;">应用名</th>
+<th style="text-align:center;">应用描述</th>
+<th style="text-align:center;">大小</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center;">引导</td>
+<td>grub2</td>
+<td>引导</td>
+<td style="text-align:center;">3.1M</td>
+</tr>
+<tr>
+<td style="text-align:center;">内核</td>
+<td>kernel</td>
+<td >内核</td>
+<td style="text-align:center;">7.8M</td>
+</tr>
+<tr>
+<td style="text-align:center;">虚根</td>
+<td>initrd</td>
+<td>虚根</td>
+<td style="text-align:center;">14M</td>
+</tr>
+<tr>
+<td rowspan="13" style="text-align:center;">基础包(本类全部解压完成后启动系统)</td>
+<td>system</td>
+<td>基础系统</td>
+<td style="text-align:center;">15.4M</td>
+</tr>
+<tr>
+<td>libmnl</td>
+<td>NAT相关</td>
+<td style="text-align:center;">0.12M</td>
+</tr>
+<tr>
+<td>driver-wireless</td>
+<td>无线驱动</td>
+<td style="text-align:center;">0.32M</td>
+</tr>
+<tr>
+<td>driver</td>
+<td>基础驱动</td>
+<td style="text-align:center;">3.2M</td>
+</tr>
+<td>udev</td>
+<td>设备自动发现</td>
+<td style="text-align:center;">1.1M</td>
+</tr>
+<tr>
+<td>udev</td>
+<td>设备自动发现</td>
+<td style="text-align:center;">1.1M</td>
+</tr>
+<tr>
+<td>nvidia</td>
+<td>nvidia驱动</td>
+<td style="text-align:center;">43M</td>
+</tr>
+<tr>
+<td>fsServer</td>
+<td>升级程序的服务端，含日志管理，watchdog</td>
+<td style="text-align:center;">5.4M</td>
+</tr>
+<tr>
+<td>telnet</td>
+<td>telnet服务端和客户端</td>
+<td style="text-align:center;">0.08M</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td>ssh服务端</td>
+<td style="text-align:center;">0.08M</td>
+</tr>
+<tr>
+<td>network</td>
+<td>网路小工具,比如网桥工具</td>
+<td style="text-align:center;">0.02M</td>
+</tr>
+<tr>
+<td>iscsiclient</td>
+<td>iscsi硬盘挂载工具</td>
+<td style="text-align:center;">0.57M</td>
+</tr>
+<tr>
+<td>zabbix</td>
+<td>zabbix采集程序</td>
+<td style="text-align:center;">1.1M</td>
+</tr>
+<tr>
+<td rowspan="52" style="text-align:center;">扩展包(解压一个启动一个)</td>
+<td>vsftpd</td>
+<td>ftp服务器</td>
+<td style="text-align:center;">0.08M</td>
+</tr>
+<tr>
+<td>zfs</td>
+<td>zfs文件系统</td>
+<td style="text-align:center;">1.5M</td>
+</tr>
+<tr>
+<td>smb</td>
+<td>smb服务器</td>
+<td style="text-align:center;">8.1M</td>
+</tr>
+<tr>
+<td>nginx</td>
+<td>nginx服务器</td>
+<td style="text-align:center;">0.58M</td>
+</tr>
+<tr>
+<td>phpext</td>
+<td>php扩展</td>
+<td style="text-align:center;">0.63M</td>
+</tr>
+<tr>
+<td>php</td>
+<td>php服务器</td>
+<td style="text-align:center;">4.4M</td>
+</tr>
+<tr>
+<td>mariadb</td>
+<td>mariadb服务器</td>
+<td style="text-align:center;">6.9M</td>
+</tr>
+<tr>
+<td>git</td>
+<td>git服务器</td>
+<td style="text-align:center;">3.4M</td>
+</tr>
+<tr>
+<td>virtual</td>
+<td>虚拟服务器(kvm虚拟化),可在系统内跑其他linux或windows虚拟机</td>
+<td style="text-align:center;">3.4M</td>
+</tr>
+<tr>
+<td>ossfs</td>
+<td>使用阿里云的对象储存</td>
+<td style="text-align:center;">2.2M</td>
+</tr>
+<tr>
+<td>lvs</td>
+<td>lvs文集系统管理工具</td>
+<td style="text-align:center;">0.1M</td>
+</tr>
+<tr>
+<td>iptables</td>
+<td>防火墙</td>
+<td style="text-align:center;">0.29M</td>
+</tr>
+<tr>
+<td>pppd</td>
+<td>pptp、l2tp 服务器需要的组件</td>
+<td style="text-align:center;">0.21M</td>
+</tr>
+<tr>
+<td>pptpd</td>
+<td>pptpd服务器</td>
+<td style="text-align:center;">0.05M</td>
+</tr>
+<tr>
+<td>ipsec</td>
+<td>l2tp 服务器需要的组件</td>
+<td style="text-align:center;">4.6M</td>
+</tr>
+<tr>
+<td>xl2tpd</td>
+<td>l2tp服务器</td>
+<td style="text-align:center;">0.09M</td>
+</tr>
+<tr>
+<td>jpegipp</td>
+<td>intel的jpg编解码库</td>
+<td style="text-align:center;">13M</td>
+</tr>
+<tr>
+<td>ffmpeg</td>
+<td>ffmpeg库，拥有h264,h265解码</td>
+<td style="text-align:center;">13M</td>
+</tr>
+<tr>
+<td>zos</td>
+<td>视频软件，用于rtsp、rtmp、hls、gb28181协议的直播、储存、回放，并带ai分析</td>
+<td style="text-align:center;">8.6M</td>
+</tr>
+<tr>
+<td>mail</td>
+<td>邮件服务器,用于收发邮件，并提供web邮箱，web域名管理</td>
+<td style="text-align:center;">18M</td>
+</tr>
+<tr>
+<td>x265</td>
+<td>h265编码库</td>
+<td style="text-align:center;">0.79M</td>
+</tr>
+<tr>
+<td>x264</td>
+<td>h264编码库</td>
+<td style="text-align:center;">0.81M</td>
+</tr>
+<tr>
+<td>wireshark</td>
+<td>网路抓包与分析工具</td>
+<td style="text-align:center;">20M</td>
+</tr>
+<tr>
+<td>valgrind</td>
+<td>内存调试，程序bug分析工具</td>
+<td style="text-align:center;">1.2M</td>
+</tr>
+<tr>
+<td>tools-oem</td>
+<td>客户定制的特殊工具</td>
+<td style="text-align:center;">0.44M</td>
+</tr>
+<tr>
+<td>tools</td>
+<td>常用工具，如ping、xdd、arp等</td>
+<td style="text-align:center;">0.44M</td>
+</tr>
+<tr>
+<td>tools</td>
+<td>常用工具，如ping、xdd、arp等</td>
+<td style="text-align:center;">0.49M</td>
+</tr>
+<tr>
+<td>tc</td>
+<td>流控程序</td>
+<td style="text-align:center;">0.22M</td>
+</tr>
+<tr>
+<td>tc</td>
+<td>流控程序</td>
+<td style="text-align:center;">0.22M</td>
+</tr>
+<tr>
+<td>rpcapd</td>
+<td>流量镜像程序，允许在windows下使用wireshark对linux系统远程抓包</td>
+<td style="text-align:center;">0.10M</td>
+</tr>
+<tr>
+<td>qemu-nbd</td>
+<td>虚拟磁盘，如vmdk,qcow的挂载程序</td>
+<td style="text-align:center;">0.64M</td>
+</tr>
+<tr>
+<td>nvidia-tool</td>
+<td>nvidia工具，用于管理与查看gpu</td>
+<td style="text-align:center;">0.83M</td>
+</tr>
+<tr>
+<td>ntp</td>
+<td>ntp服务器</td>
+<td style="text-align:center;">1.8M</td>
+</tr>
+<tr>
+<td>ntfs-3g</td>
+<td>ntfs文件系统管理程序</td>
+<td style="text-align:center;">0.29M</td>
+</tr>
+<tr>
+<td>ntfs-3g</td>
+<td>ntfs文件系统管理程序</td>
+<td style="text-align:center;">0.29M</td>
+</tr>
+<tr>
+<td>nmap</td>
+<td>网络扫描程序</td>
+<td style="text-align:center;">0.91M</td>
+</tr>
+<tr>
+<td>nmap</td>
+<td>网络扫描程序</td>
+<td style="text-align:center;">0.91M</td>
+</tr>
+<tr>
+<td>nft</td>
+<td>取代iptable的网络框架</td>
+<td style="text-align:center;">0.25M</td>
+</tr>
+<tr>
+<td>ncat</td>
+<td>tcp端口代理程序</td>
+<td style="text-align:center;">0.2M</td>
+</tr>
+<tr>
+<td>mysql-upgrade</td>
+<td>mariadb数据库升级工具，如centos7建立的数据库，在centos8可能需要升级</td>
+<td style="text-align:center;">1.8M</td>
+</tr>
+<tr>
+<td>mariadbtool</td>
+<td>mmariadb的工具，比如命令行连接数据库工具</td>
+<td style="text-align:center;">1.1M</td>
+</tr>
+<tr>
+<td>journalctl</td>
+<td>systemd的日志查看工具</td>
+<td style="text-align:center;">0.03M</td>
+</tr>
+<tr>
+<td>ipcs</td>
+<td>共享内存管理工具</td>
+<td style="text-align:center;">0.03M</td>
+</tr>
+<tr>
+<td>iopp</td>
+<td>磁盘io监测工具</td>
+<td style="text-align:center;">0.01M</td>
+</tr>
+<tr>
+<td>iopp</td>
+<td>磁盘io监测工具</td>
+<td style="text-align:center;">0.01M</td>
+</tr>
+<tr>
+<td>opencv</td>
+<td>opencv库</td>
+<td style="text-align:center;">5.0M</td>
+</tr>
+<tr>
+<td>iftop</td>
+<td>网路流量监控</td>
+<td style="text-align:center;">0.08M</td>
+</tr>
+<tr>
+<td>ifstat</td>
+<td>网路接口流量监控</td>
+<td style="text-align:center;">0.03M</td>
+</tr>
+<tr>
+<td>htop</td>
+<td>进程监控程序</td>
+<td style="text-align:center;">0.08M</td>
+</tr>
+<tr>
+<td>gitweb</td>
+<td>web呈现本机git服务器的项目</td>
+<td style="text-align:center;">0.94M</td>
+</tr>
+<tr>
+<td>ftp</td>
+<td>ftp客户端</td>
+<td style="text-align:center;">0.04M</td>
+</tr>
+<tr>
+<td>dhsdk</td>
+<td>大华的sdk开发包</td>
+<td style="text-align:center;">9.2M</td>
+</tr>
+</tbody>
+</table>
+
+
+
 
