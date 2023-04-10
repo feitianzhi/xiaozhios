@@ -72,8 +72,8 @@ QQ交流群：[869598376](http://www.feitianzhi.com/ "小雉系统")
     mkdir -p /opt/os
     cd /opt/os
     //mv xiaozhios-20221212.gz /opt/os/xiaozhios-openSource.gz
-    wget -o xiaozhios-openSource.gz http://www.mym9.com:16080/files/xiaozhios-openSource.gz
-    gzid -cd xiaozhios-openSource.gz |cpio -idvm
+    wget -O xiaozhios-openSource.gz http://www.mym9.com:16080/files/xiaozhios-openSource.gz
+    gzip -cd xiaozhios-openSource.gz |cpio -idvm
     cd xiaozhios
     ./clean;./run
   生成升级包（如xiaozhi-4.94.1122.upt.jpg)后，把升级包拷贝到windows下，使用下级的工具升级
