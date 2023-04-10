@@ -5,6 +5,7 @@
 github  https://github.com/feitianzhi/xiaozhios  
 gitee   https://gitee.com/feitianzhi/xiaozhios   
 QQ交流群：[869598376](http://www.feitianzhi.com/ "小雉系统") 
+微信号：xiaozhios
  
 #### **小雉系统简介**
 ------
@@ -125,13 +126,51 @@ ftp软件包是拷贝原版系统的ftp文件做的一个软件包
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"小雉系统"提供的收费版本为支持服务,其区别如下;
 
-|  | 开源版本 | 收费版本 |
-|::|:----:|:----:|
-|升级包大小      |无限制  | 无限制 |
-|支持的发行版本  |所有linux发行版本  | 所有linux发行版本 |
-|是否支持私有升级包制作  |支持(./updateFilePackage -p 私有密码)  | 支持(./updateFilePackage -p 私有密码) |
-|是否支持差分升级  |支持  | 支持 |
-|是否支持版本回滚  |支持(24小时内回滚)  | 支持(0-100年回滚) |
-|技术服务         |论坛  | 技术培训与电话远程支持 |
-|技术支持         |qq群:869598376  | 微信号:xiaozhios |
+
+<table>
+<thead>
+<tr>
+<th style="text-align:center;"></th>
+<th style="text-align:center;">开源版本</th>
+<th style="text-align:center;">收费版本</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center;">升级包大小</td>
+<td style="text-align:center;">无限制</td>
+<td style="text-align:center;"> 无限制</td>
+</tr>
+<tr>
+<td style="text-align:center;">支持的发行版本</td>
+<td style="text-align:center;">所有linux发行版本</td>
+<td style="text-align:center;"> 所有linux发行版</td>
+</tr>
+<tr>
+<td style="text-align:center;">是否支持私有升级包制作</td>
+<td style="text-align:center;">支持(./updateFilePackage -p 私有密码)</td>
+<td style="text-align:center;">支持(./updateFilePackage -p 私有密码)</td>
+</tr>
+<tr>
+<td style="text-align:center;">是否支持差分升级</td>
+<td style="text-align:center;">支持</td>
+<td style="text-align:center;">支持</td>
+</tr>
+<tr>
+<td style="text-align:center;">是否支持版本回滚</td>
+<td style="text-align:center;">支持(24小时内回滚)</td>
+<td style="text-align:center;"> 支持(0-100年回滚)</td>
+</tr>
+<tr>
+<td style="text-align:center;">技术服务</td>
+<td style="text-align:center;">论坛 </td>
+<td style="text-align:center;">技术培训与电话远程支持</td>
+</tr>
+<tr>
+<td style="text-align:center;">技术支持</td>
+<td style="text-align:center;">qq群:869598376</td>
+<td style="text-align:center;">微信号:xiaozhios</td>
+</tr>
+</tbody>
+</table>
 
