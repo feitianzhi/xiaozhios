@@ -4,7 +4,7 @@
 官网     http://www.feitianzhi.com/  
 github  https://github.com/feitianzhi/xiaozhios  
 gitee   https://gitee.com/feitianzhi/xiaozhios   
-QQ交流群：[869598376](http://www.feitianzhi.com/ "小雉系统") 
+QQ交流群：[869598376](http://www.feitianzhi.com/ "小雉系统")  
 微信号：xiaozhios
  
 #### **小雉系统简介**
