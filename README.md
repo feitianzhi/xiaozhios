@@ -471,11 +471,6 @@ ftp软件包是拷贝原版系统的ftp文件做的一个软件包
 <td style="text-align:center;">0.01M</td>
 </tr>
 <tr>
-<td>iopp</td>
-<td>磁盘io监测工具</td>
-<td style="text-align:center;">0.01M</td>
-</tr>
-<tr>
 <td>opencv</td>
 <td>opencv库</td>
 <td style="text-align:center;">5.0M</td>
