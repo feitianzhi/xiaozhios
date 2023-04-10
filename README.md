@@ -270,7 +270,7 @@ ftp软件包是拷贝原版系统的ftp文件做的一个软件包
 <td style="text-align:center;">1.1M</td>
 </tr>
 <tr>
-<td rowspan="52" style="text-align:center;">扩展包(解压一个启动一个)</td>
+<td rowspan="50" style="text-align:center;">扩展包(解压一个启动一个)</td>
 <td>vsftpd</td>
 <td>ftp服务器</td>
 <td style="text-align:center;">0.08M</td>
@@ -398,17 +398,7 @@ ftp软件包是拷贝原版系统的ftp文件做的一个软件包
 <tr>
 <td>tools</td>
 <td>常用工具，如ping、xdd、arp等</td>
-<td style="text-align:center;">0.44M</td>
-</tr>
-<tr>
-<td>tools</td>
-<td>常用工具，如ping、xdd、arp等</td>
 <td style="text-align:center;">0.49M</td>
-</tr>
-<tr>
-<td>tc</td>
-<td>流控程序</td>
-<td style="text-align:center;">0.22M</td>
 </tr>
 <tr>
 <td>tc</td>
