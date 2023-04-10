@@ -270,7 +270,7 @@ ftp软件包是拷贝原版系统的ftp文件做的一个软件包
 <td style="text-align:center;">1.1M</td>
 </tr>
 <tr>
-<td rowspan="50" style="text-align:center;">扩展包(解压一个启动一个)</td>
+<td rowspan="48" style="text-align:center;">扩展包(解压一个启动一个)</td>
 <td>vsftpd</td>
 <td>ftp服务器</td>
 <td style="text-align:center;">0.08M</td>
@@ -429,16 +429,6 @@ ftp软件包是拷贝原版系统的ftp文件做的一个软件包
 <td>ntfs-3g</td>
 <td>ntfs文件系统管理程序</td>
 <td style="text-align:center;">0.29M</td>
-</tr>
-<tr>
-<td>ntfs-3g</td>
-<td>ntfs文件系统管理程序</td>
-<td style="text-align:center;">0.29M</td>
-</tr>
-<tr>
-<td>nmap</td>
-<td>网络扫描程序</td>
-<td style="text-align:center;">0.91M</td>
 </tr>
 <tr>
 <td>nmap</td>
