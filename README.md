@@ -205,7 +205,7 @@ ftp软件包是拷贝原版系统的ftp文件做的一个软件包
 <td style="text-align:center;">14M</td>
 </tr>
 <tr>
-<td rowspan="13" style="text-align:center;">基础包(本类全部解压完成后启动系统)</td>
+<td rowspan="12" style="text-align:center;">基础包(本类全部解压完成后启动系统)</td>
 <td>system</td>
 <td>基础系统</td>
 <td style="text-align:center;">15.4M</td>
@@ -224,10 +224,6 @@ ftp软件包是拷贝原版系统的ftp文件做的一个软件包
 <td>driver</td>
 <td>基础驱动</td>
 <td style="text-align:center;">3.2M</td>
-</tr>
-<td>udev</td>
-<td>设备自动发现</td>
-<td style="text-align:center;">1.1M</td>
 </tr>
 <tr>
 <td>udev</td>
@@ -337,7 +333,7 @@ ftp软件包是拷贝原版系统的ftp文件做的一个软件包
 </tr>
 <tr>
 <td>pptpd</td>
-<td>pptpd服务器</td>
+<td>pptp服务器</td>
 <td style="text-align:center;">0.05M</td>
 </tr>
 <tr>
